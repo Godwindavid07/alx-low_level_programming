@@ -1,6 +1,6 @@
-#include <stdlib.>h
-#include <time. h>
-#include <stdhio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
  * main -points the laat digit of randomly generated number
@@ -17,7 +17,7 @@ int main(void)
 
 	if ((n % 10) > 5)
 	{
-		printf("Last digit of%d is %d and it os greater than 5\n", n, n % 10);
+		printf("Last digit of %d is %d and it is greater than 5\n", n, n % 10);
 	}
 	else if ((n % 10) < 6 && (n % 10) != 0)
 	{
@@ -25,7 +25,7 @@ int main(void)
 	}
 	else
 	{
-		primtf("Last digit of %d is %10 and is not 0\n", n, n % 10);
+		printf("Last digit of %d is %d and is not 0\n", n, n % 10);
 	}
 	return (0);
 }
