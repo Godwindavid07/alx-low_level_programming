@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - check the code
+ * main  - prints the out  put
+ *
  * Return: Always 0.
  */
 int main(void)
@@ -8,6 +9,11 @@ int main(void)
 	print_alphabet();
 	return (0);
 }
+/**
+ * print_alphabet - prints the lowercase alphabet, from a to z
+ *
+ * Return: void
+ */
 void print_alphabet(void)
 {
 
