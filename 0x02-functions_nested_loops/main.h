@@ -1,20 +1,17 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef main_h
+#define maim_h
 
 int print_last_digit(int);
 void print_alphabet_x10(void);
 void print_alphabet(void);
-print_alphabet(void);
-print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
-print_last_digit(int);
 void jack_bauer(void);
-void times_table(void);
+void times_table(int n);
 int add(int, int);
 void print_to_98(int n);
-int _putchar(char c);
+int _putchar(char);
 
-#endif // MAIN_H
+#endif
