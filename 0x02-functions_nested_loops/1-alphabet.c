@@ -21,8 +21,3 @@ void print_alphabet(void)
 
 	_putchar('\n');
 }
-
-int _putchar(char c)
-{
-	/* implimentation of the word char */
-}
